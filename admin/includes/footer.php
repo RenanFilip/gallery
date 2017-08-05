@@ -8,6 +8,7 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="https://cloud.tinymce.com/stable/tinymce.min.js?apiKey=h9doqxf2kvt6kdvaviph0evvnkhfieuoc32d5linw4qy3rmz
 "></script>
+    <script src="js/dropzone.js"></script>
     <script src="js/script.js"></script>
     <script type="text/javascript">
       google.charts.load("current", {packages:["corechart"]});

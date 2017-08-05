@@ -18,6 +18,7 @@
                     <h1 class="page-header">
                         Photos
                     </h1>
+                    <p class="bg-success"><?php echo $message; ?></p>
                     <div class="col-md-12">
                         <table class="table table-hover table-responsive table-striped table-condensed">
                             <thead>
@@ -38,7 +39,7 @@
                                         <div class="pictures_link"><br>
                                             <a href="edit_photo.php?id=<?php echo $photo->id; ?>" class="btn btn-primary">Edit</a>
                                             <a href="../photo.php?id=<?php echo $photo->id; ?>" class="btn btn-info">View</a>
-                                            <a href="delete_photo.php?id=<?php echo $photo->id; ?>" class="btn btn-danger">Delete</a>
+                                            <a href="delete_photo.php?id=<?php echo $photo->id; ?>" class="delete_link btn btn-danger">Delete</a>
                                         </div>
                                     </td>
                                     <td><?php echo $photo->id; ?></td>

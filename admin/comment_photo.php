@@ -21,6 +21,7 @@
                     <h1 class="page-header">
                         Comments
                     </h1>
+                    <p class="bg-success"><?php echo $message; ?></p>
                     <!-- <a href="add_comment.php" class="btn btn-primary">Add User</a> -->
                     <div class="col-md-12">
                         <table class="table table-hover table-responsive table-striped table-condensed">

@@ -47,6 +47,16 @@ $(document).ready(function() {
             },
         });
     });
+
+    $(".info-box-header").click(function () {
+        $(".inside").slideToggle("fast");
+        $("#toggle").toggleClass("glyphicon-menu-down glyphicon, glyphicon-menu-up glyphicon");
+    });
+
+    $(".delete_link").click(function () {
+        return confirm("Tem certeza que quer deletar esse item");
+    });
+
     tinymce.init({
         selector:'textarea'
     });
