@@ -4,11 +4,11 @@
     defined('INCLUDES_PATH') ? null : define('INCLUDES_PATH', SITE_ROOT . DS . 'admin' . DS . 'includes');
     require_once(INCLUDES_PATH . DS ."functions.php");
     require_once(INCLUDES_PATH . DS ."new_config.php");
-    require_once(INCLUDES_PATH . DS ."database.php");
-    require_once(INCLUDES_PATH . DS ."db_object.php");
-    require_once(INCLUDES_PATH . DS ."user.php");
-    require_once(INCLUDES_PATH . DS ."photo.php");
-    require_once(INCLUDES_PATH . DS ."comment.php");
-    require_once(INCLUDES_PATH . DS ."paginate.php");
-    require_once(INCLUDES_PATH . DS ."session.php");
+    require_once(INCLUDES_PATH . DS ."Database.php");
+    require_once(INCLUDES_PATH . DS ."Db_object.php");
+    require_once(INCLUDES_PATH . DS ."User.php");
+    require_once(INCLUDES_PATH . DS ."Photo.php");
+    require_once(INCLUDES_PATH . DS ."Comment.php");
+    require_once(INCLUDES_PATH . DS ."Paginate.php");
+    require_once(INCLUDES_PATH . DS ."Session.php");
 ?>

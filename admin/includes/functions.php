@@ -1,6 +1,6 @@
 <?php
     function classAutoLoader($class) {
-        $class = strtolower($class);
+        $class = ucfirst($class);
         $the_path = "includes/{$class}.php";
         if (is_file($the_path) && !class_exists($class)) {
             include($the_path);
