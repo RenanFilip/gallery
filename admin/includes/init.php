@@ -1,6 +1,6 @@
 <?php
     defined('DS') ? null : define('DS', DIRECTORY_SEPARATOR);
-    define('SITE_ROOT', DS . 'var' . DS . 'www' . DS . 'gallery');
+    define('SITE_ROOT', DS . 'wamp64' . DS . 'www' . DS . 'gallery');
     defined('INCLUDES_PATH') ? null : define('INCLUDES_PATH', SITE_ROOT . DS . 'admin' . DS . 'includes');
     require_once(INCLUDES_PATH . DS ."functions.php");
     require_once(INCLUDES_PATH . DS ."new_config.php");
